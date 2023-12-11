@@ -1,5 +1,5 @@
 # ChildhoodCancerDataInitiative-CCDI_IndexeRy
-This script will take a [CCDI submission template](https://github.com/CBIIT/ccdi-model/tree/main/metadata-manifest) and transform it to a flattened file for indexing into DCF and CGC.
+This script will take a [CCDI metadata manifest file](https://github.com/CBIIT/ccdi-model/tree/main/metadata-manifest) and converts to a CDS-like Indexing template, for DCF and CGC, based on a fixed set of property equivalencies.
 
 Run the following command in a terminal where python is installed for help.
 
