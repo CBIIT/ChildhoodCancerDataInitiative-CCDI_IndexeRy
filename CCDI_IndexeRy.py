@@ -83,14 +83,6 @@ def read_xlsx(file_path: str, sheet: str):
     warnings.simplefilter(action='ignore', category=UserWarning)
     return pd.read_excel(file_path, sheet, dtype=str)
 
-index_req_props=['guid','md5','size','acl','authz','url',
-                'phs_accession','study_name','study_acronym','experimental_strategy_and_data_subtype','organism',
-                'participant_id','gender','race','ethnicity',
-                'sample_id','sample_tumor_status','sample_anatomic_site','age_at_collection',
-                'file_name','file_type','file_size','md5sum','file_url_in_cds',
-                'library_source','platform','library_id','library_strategy','library_selection','library_layout','instrument_model','reference_genome','bases','number_of_reads','avg_read_length','coverage',
-                'diagnosis_id','primary_diagnosis']
-
 index_df=pd.DataFrame()
 
 ##############
